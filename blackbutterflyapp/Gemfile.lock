@@ -1,0 +1,27 @@
+GIT
+  remote: git://github.com/clearsightstudio/ProMotion.git
+  revision: 4957d946af37caddd2ae3de7c5daf815416a35af
+  branch: pm2
+  specs:
+    ProMotion (2.0.0.rc3)
+      methadone (~> 1.4)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    dbt (1.1.5)
+    methadone (1.5.1)
+      bundler
+    motion-kit (0.10.11)
+      dbt (~> 1.1.5)
+    rake (10.3.2)
+    sugarcube (1.6.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  ProMotion!
+  motion-kit (~> 0.10.1)
+  rake
+  sugarcube (~> 1.6.1)

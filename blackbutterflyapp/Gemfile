@@ -1,0 +1,26 @@
+source "https://rubygems.org"
+
+gem "rake"
+
+# Screens
+gem "ProMotion", github: "clearsightstudio/ProMotion", branch: "pm2"
+
+# Awesome gem that adds a ton of helpers.
+gem "sugarcube", "~> 1.6.1", require: [ "sugarcube-color", "sugarcube-uikit"]
+# "sugarcube/common" ]
+
+# Layout and styling gem
+gem "motion-kit", "~> 0.10.1"
+
+# Front end toolkit
+# gem "ruby_motion_query", "~> 0.5"
+
+# CoreData
+# gem "cdq", "~> 0.1"
+
+# Networking
+# gem "afmotion", "~> 2.1"
+
+# Screenshot acceptance comparison tool
+# gem "motion-juxtapose", "~> 0.1"
+
